@@ -18,7 +18,7 @@ public class Controller implements Initializable {
     @FXML private TextField newTask;
     @FXML private ListView<String> taskList;
     //save data to file
-    private final String filePath = "data.txt";
+    private final String filePath = "note.txt";
     private final File data = new File(filePath);
 
     public void  addNewTask() {
